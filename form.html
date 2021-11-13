@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    .cards{
+      background-color: rgb(255, 195, 30);
+      margin-left: 400px;
+      width:300px;
+      margin-top: 100px;
+    
+    }
+  </style>
+  <div class="cards"><article class="card"><h1 style="background-color: rgb(47, 224, 255);">REGISTRATION FORM</h1>
+  <form>
+      <label for="First name">First name</label><br>
+      <input type=" name"name=""id="name"><br>
+      <label for="Middle name">Middle name</label><br>
+      <input type ="name"name=""id="name"><br>
+      <label for="last name">Last name</label><br>
+      <input type="name"name=""id="name"><br>
+      <label for="email">Email</label><br>
+      <input type="email"name=""id="email"><br>
+      <label for="password">Password</label><br>
+      <input type="password"name=""i="password"><br>
+      <label for="phone number">Phone Number</label><br>
+      <input type="number"name=""id="number"><br>
+      <label for="uploading a picture">Upload Photo</label><br>
+      <input type="file"name=""id="file"><br>
+      <button type="submit">Submit</button>
+      <button type="Reset" >Reset</button> 
+
+</form>
+</div>
+<p id="log"></p>
+<script>
+  function logReset(Event){
+    log.textContent= "2 more chance"
+    const form=document.getElementById("form")
+    const log=document.getElementById("log")
+    formOnreset=logReset
+  }
+</script>
+
+</body>
+</html>
